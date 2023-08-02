@@ -1,7 +1,7 @@
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://taskmanagement-server-cjew.onrender.com";
 
 const getAllTasks = (setTasks) => {
   axios
